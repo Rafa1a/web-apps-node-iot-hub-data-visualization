@@ -8,7 +8,7 @@ Link Será retirado, logo após a correção do Projeto.
 
 Video do projeto em execução: 
 
-[ProjetoFacu](../imagens/Gravando%202024-03-11%20201112.mp4)
+[ProjetoFacu](/imagens/Gravando%202024-03-11%20201112.mp4)
 
 ## Pré-requisitos
 
@@ -37,7 +37,7 @@ az iot hub consumer-group create --hub-name YOUR_IOT_HUB_NAME --name YOUR_CONSUM
 
 Execução: 
 
-[grupo de consumidores](../imagens/grupo%20de%20consumidores.png)
+[grupo de consumidores](/imagens/grupo%20de%20consumidores.png)
 
 
 ### 4. Configurar Variáveis de Ambiente
@@ -48,7 +48,7 @@ az iot hub show-connection-string --hub-name YOUR_IOT_HUB_NAME --policy-name ser
 
 Execução: 
 
-[connectionString](../imagens/connectionString.png)
+[connectionString](/imagens/connectionString.png)
 
 Utilize os comandos abaixo na janela de comando para definir as variáveis de ambiente:
 
@@ -60,7 +60,7 @@ PowerShell :
 $env:IotHubConnectionString = "YOUR_IOT_HUB_CONNECTION_STRING"
 $env:EventHubConsumerGroup = "YOUR_CONSUMER_GROUP_NAME"
 
-[connectionString](../imagens/variaveis%20de%20ambiente.png)
+[connectionString](/imagens/variaveis%20de%20ambiente.png)
 
 ### 5. Executar o Aplicativo Web Localmente
 
@@ -76,15 +76,15 @@ npm start
   
 inicio:
 
-[exceção do projeto localmente](../imagens/execucao.png)
+[exceção do projeto localmente](/imagens/execucao.png)
 
 localhost: 
 
-[exceção do projeto localmente grafico](../imagens/execucao_grafico.png)
+[exceção do projeto localmente grafico](/imagens/execucao_grafico.png)
 
 Console:
 
-[exceção do projeto localmente console](../imagens/execucao_console.png)
+[exceção do projeto localmente console](/imagens/execucao_console.png)
 
 ### 7. Hospedar o Aplicativo na Nuvem Azure
 
@@ -94,27 +94,27 @@ Console:
 
 Utilize o comando az appservice plan create para criar um novo plano do Serviço de Aplicativo usando o nível gratuito do Windows.
 
-[criado appservice](../imagens/appservice_creat.png)
+[criado appservice](/imagens/appservice_creat.png)
 
 #### 7.2. Criando um aplicativo web:
 
 Utilize o comando az webapp create para provisionar um aplicativo web em seu Plano do Serviço de Aplicativo.
 
-[criado appservice](../imagens/webapp_create.png)
+[criado appservice](/imagens/webapp_create.png)
 
 ### 8. Configurar Variáveis de Ambiente na Nuvem
 
 - Adicione configurações de aplicativo referentes às variáveis de ambiente utilizando o comando `az webapp config appsettings set`.
   
-[Varaivel de ambiente mudando no azure](../imagens//alterando_variaveis.png)
+[Varaivel de ambiente mudando no azure](/imagens//alterando_variaveis.png)
 
 ### 9. Ativar Protocolo WebSocket e HTTPS
 
 - Utilize os comandos `az webapp config set` e `az webapp update` para ativar o protocolo WebSocket e configurar para aceitar exclusivamente solicitações HTTPS.
   
-[config1](../imagens/config_1.png)
+[config1](/imagens/config_1.png)
 
-[config1](../imagens/config_2.png)
+[config1](/imagens/config_2.png)
 
 ### 10. Verificar o Status do Aplicativo Web
 
