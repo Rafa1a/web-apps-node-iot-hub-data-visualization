@@ -8,7 +8,7 @@ Link Será retirado, logo após a correção do Projeto.
 
 Video do projeto em execução: 
 
-[ProjetoFacu](/imagens/Gravando%202024-03-11%20201112.mp4)
+![ProjetoFacu](/imagens/Gravando%202024-03-11%20201112.mp4)
 
 ## Pré-requisitos
 
@@ -37,7 +37,7 @@ az iot hub consumer-group create --hub-name YOUR_IOT_HUB_NAME --name YOUR_CONSUM
 
 Execução: 
 
-[grupo de consumidores](/imagens/grupo%20de%20consumidores.png)
+![grupo de consumidores](/imagens/grupo%20de%20consumidores.png)
 
 
 ### 4. Configurar Variáveis de Ambiente
